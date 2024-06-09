@@ -1,0 +1,11 @@
+const siteURL = `https://meddose.pk`;
+// const testURL = `https://maddose-backend.vercel.app/api/`;
+// const testURL = `http://192.168.0.116:3001/api/`;
+// const testURL = `http://192.168.0.118:3001/api/`;
+const testURL = `https://teaching-boar-newly.ngrok-free.app/api/`;
+// const testURL = `https://mollusk-still-impala.ngrok-free.app/api/`;
+const apiBaseURL = `${siteURL}/wp-json/jwt-auth/v1/token`;
+const apiBaseURLV1 = `${siteURL}/index.php/wp-json/showroom/v1`;
+const authURL = `${apiBaseURLV1}/oauth`;
+const ONESIGNAL_APP_ID = 'fd87655b-82bf-4e70-940a-887f6066bbba';
+export {apiBaseURL, apiBaseURLV1, siteURL, authURL, ONESIGNAL_APP_ID, testURL};
